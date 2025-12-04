@@ -227,7 +227,7 @@ function Calculator(){
             <h2>{number}</h2>
             <div className="calc-row">
                 <button className="gray-button" onClick={erase} style={{backgroundImage: `url(${erase_img})`,backgroundSize: "30px 30px",backgroundPosition: "center",backgroundRepeat: "no-repeat",border: "none"}}></button>
-                <button className="gray-button" onClick={reboot} style={{alignItems: "center",justifyContent: "center", display:"flex"}}>{something ? "CA" : "C"}</button>
+                <button className="gray-button" onClick={reboot} style={{alignItems: "center",justifyContent: "center", display:"flex"}}>{something ? "C" : "CA"}</button>
                 <button className="gray-button" onClick={percentage}>%</button>
                 <button className="orange-button" onClick={division} style={{backgroundImage: `url(${division_img})`,backgroundSize: "15px 15px",backgroundPosition: "center",backgroundRepeat: "no-repeat",border: "none"}}></button>
             </div>
