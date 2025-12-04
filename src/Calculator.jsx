@@ -223,7 +223,7 @@ function Calculator(){
 
     return(
         <>
-        <div>
+        <div id="Contenedor">
             <h2>{number}</h2>
             <div className="calc-row">
                 <button className="gray-button" onClick={erase} style={{backgroundImage: `url(${erase_img})`,backgroundSize: "30px 30px",backgroundPosition: "center",backgroundRepeat: "no-repeat",border: "none"}}></button>
